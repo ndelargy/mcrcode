@@ -1,0 +1,19 @@
+<?php
+/**
+ * Implement hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function cti_base_profile_install() {
+  include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
+  minimal_install();
+
+  theme_enable('omega');
+
+  variable_set('theme_default', 'omega');
+  variable_set('admin_theme', 'seven');
+
+  // Disable the default Bartik theme
+  theme_disable(array('bartik'));
+}
+?>

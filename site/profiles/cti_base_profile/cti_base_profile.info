@@ -1,0 +1,127 @@
+name = CTI Base Profile
+description = Quick Site Install Profile
+core = 7.x
+
+; from standard install
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+;dependencies[] = toolbar ;cti disabled by default
+;dependencies[] = overlay ;cti disabled by default
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; some standard comment /uncomment for your build
+;;; if possible please mantain alphabetical order when adding to this list
+
+dependencies[] = admin_menu
+dependencies[] = bean
+dependencies[] = block_class
+;dependencies[] = boxes
+dependencies[] = coder
+dependencies[] = coffee
+dependencies[] = context
+;dependencies[] = comment_notify
+dependencies[] = conditional_styles
+dependencies[] = context
+;dependencies[] = context_condition_admin_theme
+dependencies[] = context_field
+dependencies[] = context_ui
+dependencies[] = ctools
+dependencies[] = custom_formatters
+dependencies[] = date
+dependencies[] = delta
+dependencies[] = delta_ui
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = ds
+dependencies[] = email
+dependencies[] = entity
+dependencies[] = entity_autocomplete
+dependencies[] = entitycache
+dependencies[] = features
+dependencies[] = features_override
+dependencies[] = field_collection
+dependencies[] = field_group
+dependencies[] = filter_perms
+dependencies[] = follow
+dependencies[] = forgotten_login
+dependencies[] = googleanalytics
+dependencies[] = google_analytics_reports
+dependencies[] = imagefield_crop
+dependencies[] = libraries
+dependencies[] = link
+dependencies[] = mailsystem
+dependencies[] = masquerade
+dependencies[] = menu_block
+dependencies[] = metatag
+dependencies[] = mimemail
+dependencies[] = module_filter
+dependencies[] = node_reference
+;dependencies[] = nodeblock
+dependencies[] = options_element
+dependencies[] = page_title
+;dependencies[] = panels
+;dependencies[] = password_policy
+dependencies[] = pathauto
+dependencies[] = pathologic
+dependencies[] = rabbit_hole
+dependencies[] = references
+;dependencies[] = recaptcha
+dependencies[] = search_krumo
+;dependencies[] = securepages
+dependencies[] = strongarm
+dependencies[] = styleguide
+dependencies[] = token
+dependencies[] = token_filter
+;dependencies[] = twitter_pull
+;dependencies[] = uniform
+dependencies[] = views
+dependencies[] = views_boxes
+dependencies[] = views_content
+dependencies[] = views_ui
+dependencies[] = wysiwyg
+dependencies[] = xmlsitemap
+
+; jQuery
+dependencies[] = jquery_update
+
+
+; Media Package
+;dependencies[] = media_internet
+;dependencies[] = media_youtube
+;dependencies[] = styles
+;dependencies[] = file_styles
+;dependencies[] = plupload
+;dependencies[] = multiform
+;dependencies[] = media
+;;;dependencies[] = media_gallery
+
+;dependencies[] = imce
+;dependencies[] = imce_wysiwyg
+
+; Caching
+;;;dependencies[] = akamai
+;;;dependencies[] = varnish
+;;;dependencies[] = apc
+;;;dependencies[] = memcache
+
+; apps (taken from debut apps
+dependencies[] = apps
+dependencies[] = apps_compatible
+dependencies[] = debut_wysiwyg
